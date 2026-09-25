@@ -1,0 +1,33 @@
+number of parameters: 123.69M
+loaded best.pt: epoch 2, step 14190, val loss 3.0931
+<|endoftext|>Machine Learning is 
+Although machine learning is a subset of AI, it is more powerful as well as more difficult to implement.
+Machine learning is a subset of AI, which means that it can’t be used to detect and solve problems. The key difference between AI and ML is that AI is basically a process automation system that takes care of its own goals.
+Machine learning is more powerful as well as more difficult to implement than AI. In this sense, machine learning is more efficient at solving problems than AI.
+The advantage of machine learning is that it does not require any special training, which is useful in areas like image recognition and driving.
+Also, a lot of it can be done in a single machine and the data is available at a much faster rate.
+Disadvantages of AI
+There are two main disadvantages to AI:
+1. This is the same problem that a human cannot solve.
+2. Machine learning is a powerful tool to be applied in various fields of engineering and computer science.
+AI is a subset of the AI tool, used to integrate and accelerate technology in more ways than can be done by humans.
+For example, AI can be used to process and analyze data. AI can also be used to detect and solve other problems.
+Machine learning is a subset of AI, but it is much more powerful than AI. This means that there are a lot of different ways to use machine learning.
+The disadvantages of machine learning are that it requires a
+---------------
+<|endoftext|>Machine Learning is Ã¢â¬Å"the Scientific MethodÃ¢â¬ . ItÂ is the study of how to solve problems . In this article we will try to describe the fundamental principles in Machine Learning.
+This is done by using a set of algorithms to analyze the data. These algorithms are called supervised learning.
+There are different kinds of algorithms used in machine learning. The two most popular are the artificial neural network (ANN) and the natural language processing model (NLP).
+In a NLP the main content is to understand what the training data is trying to generate by the machine. This content is very important to understand to understand the algorithm.
+Semantic Algorithm (Semi-agnostic)
+In this type of algorithm the main contents is to define a set of words and its associated terms. The term is given in the first line of a sentence. The vocabulary is the facts, information or facts about the word. The expression is the dictionary definition.
+All this is based on our understanding of the language. We have to use the most common tools available in ML.
+The most widely used is Wikipedia.
+The most popular examples are Google's dictionary and the dictionary on Facebook.
+The most popular examples of machine learning are by Google.
+A machine learning is a machine learning algorithm. The machine learning
+approach is based on the idea of inputting the data and identifying features using a set of
+data. The main data used is a
+---------------
+<|endoftext|>Machine Learning is Ã¢â¬Å"a science of making sure by using machines that can learn without training, not just by learning but by experience with them. It is a science that makes sure by using artificial intelligence, that by using machines that can learn without training, that by using machines that can learn without training, that by using machines that can learn without training, that by using machines that can learn without training, that by using machines that can learn without training, that by using machines that can learn without training, that by using machines that can learn without training, that by using machines that can learn without training, that by using machines that can learn without training, that by using machines that can learn without training, that by using machines that can learn without training, that by using machines that can learn without training, that by using machines that can learn without training, that by using machines that can learn without training, that by using machines that can learn without training, that by using machines that can learn without training, that by using machines that can learn without training, that by using machines that can learn without training, that by using machines that can learn without training, that by using machines, that is by using machines that can learn without training, that by using machines that can learn without training, that by using machines that can learn without training, that by using machines that can learn without training, that by using machines that can learn without training, that is by using machines that can learn without training
+---------------

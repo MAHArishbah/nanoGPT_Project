@@ -1,0 +1,7 @@
+{
+  "checkpoint": "E:\\AI_ML\\Prac\\nanogpt_project\\out\\best.pt",
+  "examples": 1000,
+  "acc": 0.332,
+  "acc_norm": 0.351,
+  "minutes": 5.232938261826833
+}

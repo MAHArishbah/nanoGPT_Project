@@ -1,0 +1,8 @@
+torch>=2.4
+numpy
+tiktoken
+wandb
+# only needed for prepare_fineweb.py (streaming FineWeb-Edu from the Hugging Face Hub)
+datasets
+# only needed for init_from='gpt2*' (loading OpenAI GPT-2 weights)
+transformers

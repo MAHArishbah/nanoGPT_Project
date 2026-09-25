@@ -1,0 +1,7 @@
+{
+  "checkpoint": "/content/drive/MyDrive/nanogpt_out/fineweb_modern/best.pt",
+  "examples": 10042,
+  "acc": 0.289982075283808,
+  "acc_norm": 0.3042222664807807,
+  "minutes": 2.1677311023076373
+}

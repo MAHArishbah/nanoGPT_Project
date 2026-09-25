@@ -1,0 +1,23 @@
+# Allow-list: ignore everything at the top level, then let through only what the repo needs
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/*.py
+!/model -toBeconverted to py.ipynb
+!/config/
+!/data/
+!/results/
+!/unitTests/
+!/Test_files/
+
+# never commit these, even inside allowed folders
+__pycache__/
+*.py[cod]
+*.pt
+data/fineweb/
+data/hellaswag/
+Test_files/test.txt
+unitTests/README.md
+Code_Understanding/
+

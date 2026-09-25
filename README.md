@@ -7,7 +7,7 @@ A GPT-2 (124M) language model trained from scratch in PyTorch, with a resumable 
 <!-- VALIDATION LOSS PLOT: replace the line below with the image, e.g. ![Validation loss](results/val_loss.png) -->
 *[validation-loss plot goes here]*
 
-Three runs with the same compute (14,190 optimizer steps × 524,288 tokens = **7.44B tokens**) change one thing at a time:
+Three runs with the same compute (14,190 optimizer steps × 524,288 tokens = **7.44B tokens**) changed one thing at a time:
 
 1. **Block design:** GPT-2-style → LLaMA-style blocks, with the same data.
 2. **Data freshness:** 2.48B unique tokens seen 3 times → 7.44B unique tokens seen once, with the same blocks.

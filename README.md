@@ -1,11 +1,14 @@
 # nanogpt_project
 
 A GPT-2 (124M) language model trained from scratch in PyTorch, with a resumable training script, HellaSwag evaluation and sampling. The model can switch between GPT-2-style blocks and LLaMA-style blocks (RMSNorm, SwiGLU, RoPE).
+Built following Andrej Karpathy's [nanoGPT](https://github.com/karpathy/nanoGPT) and his [build-nanogpt](https://github.com/karpathy/build-nanogpt) GPT-2 (124M) reproduction, then extended with LLaMA-style blocks, resumable mid-epoch checkpoints,kv-cache and the data-repetition experiment below.
+
 
 ## Experiment: what helps a 124M model at a fixed compute budget?
 
 <!-- VALIDATION LOSS PLOT: replace the line below with the image, e.g. ![Validation loss](results/val_loss.png) -->
-*[validation-loss plot goes here]*
+<img width="1289" height="495" alt="image" src="https://github.com/user-attachments/assets/2341d1e9-085b-43ab-a21a-76580a1ca734" />
+
 
 Three runs with the same compute (14,190 optimizer steps × 524,288 tokens = **7.44B tokens**) changed one thing at a time:
 
@@ -203,3 +206,11 @@ python hellaswag.py --ckpt out/best.pt            # ~2 min on an A100 for the fu
 - GPUs without bfloat16 (V100, T4) fall back to float32. There is no float16 mode, because it would need a GradScaler.
 - HellaSwag data comes from the `Rowan/hellaswag` Hugging Face mirror. The validation file is sorted by source, so `--limit` gives a biased subset; score the full set.
 - `model.forward(idx)` without targets returns only the last position's logits; pass targets to score whole sequences.
+
+## Credits
+
+- **Andrej Karpathy:** [nanoGPT](https://github.com/karpathy/nanoGPT) and [build-nanogpt](https://github.com/karpathy/build-nanogpt), the base for the model, training loop and GPT-2 124M setup; [llm.c](https://github.com/karpathy/llm.c) for the HellaSwag `acc_norm` convention.
+- **Data:** [FineWeb-Edu](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu) (Hugging Face); [HellaSwag](https://arxiv.org/abs/1905.07830) (Zellers et al., 2019), via the `Rowan/hellaswag` mirror.
+- **Architecture:** GPT-2 (Radford et al., 2019); LLaMA-style blocks from [LLaMA](https://arxiv.org/abs/2302.13971) (Touvron et al., 2023): [RMSNorm](https://arxiv.org/abs/1910.07467) (Zhang & Sennrich, 2019), [SwiGLU](https://arxiv.org/abs/2002.05202) (Shazeer, 2020), [RoPE](https://arxiv.org/abs/2104.09864) (Su et al., 2021).
+- **Training setup:** hyperparameters from [GPT-3](https://arxiv.org/abs/2005.14165) (Brown et al., 2020); token budget from [Chinchilla](https://arxiv.org/abs/2203.15556) (Hoffmann et al., 2022).
+- **Data repetition:** [Scaling Data-Constrained Language Models](https://arxiv.org/abs/2305.16264) (Muennighoff et al., 2023).
